@@ -31,9 +31,8 @@ body{
 }
 
 nav ul li{
-  padding-right: 20px;
   list-style: none;
-  margin-right: 150px;
+  margin-right: 40%;
 }
 
 /*------ Estilos para el body-------*/
