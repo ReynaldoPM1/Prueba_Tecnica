@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>HILL</title>
+    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="js/cuota.js"><!---esto no va, esta mal  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/cuota.js"></script>
     <link rel="icon" type="imagen/icon" href="imagenes/favicon2.ico">
   </head>
   <body>
@@ -23,5 +29,184 @@
         </div>
     </header>
     <!----------Fin del header------->
+    <!----------Inico del contenido------>
+    <div class="Control_deportivo">
+      <div class="title">
+        <h1>Controla tu <br> centro deportivo</h1>
+        <div class="contenido">
+            <p>Controla total de tus clase, ingleso, <br>
+            alumnos y maestros en tiempo real desde <br>
+            cualquier dispositivos
+            </p>
+            <button class="main_btn type="button" >
+              Iniciar ahora
+            </button>
+        </div>
+      </div>
+
+    </div>
+    <div class="gestion">
+      <div class="cont">
+
+        <div class="texto">
+          <div class="title2">
+            <h1>Gestion <br> poderosa</h1>
+          </div>
+          <div class="contenido">
+            <p>
+              Domina las metricas que importan yu toma <br>
+              mejores desiciones con nuestras <br>
+              herramientas de monitorea en tiemo real <br>
+            </p>
+          </div>
+        </div>
+        <div class="imagenes">
+          <figure>
+            <a href="#"><img src="imagenes/Controldepagos.png" alt=""></a>
+            <a href="#"><img src="imagenes/Controlacademico.png" alt=""></a>
+            <a href="#"><img src="imagenes/Indicadoresclave.png" alt=""></a>
+            <br>
+            <div class="img_col2">
+              <a href="#"><img src="imagenes/Reportemetricas.png" alt=""></a>
+              <a href="#"><img src="imagenes/Calendarioescolar.png" alt=""></a>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="ventajas">
+      <div class="lista">
+        <img src="imagenes/check.png" alt=""> <strong>Toma Desiciones</strong> con el tablero de indicadores
+        <br><br><img src="imagenes/check.png" alt=""> <strong>Gestiona</strong> tus socios y entrenadores
+        <br><br><img src="imagenes/check.png" alt=""> <strong>Registra</strong> tus ventas
+        <br><br><img src="imagenes/check.png" alt=""> <strong>Mide</strong> la productividad de tu personal
+        <br><br><img src="imagenes/check.png" alt=""> <strong>Administra</strong> tus rutinas y clases
+        <br><br><img src="imagenes/check.png" alt=""> <strong>Controla</strong> tus ingresos y egresos
+      </div>
+    </div>
+    <div class="Calculadora">
+      <div class="title_cal">
+        <h1>Controla tu centro deportivo</h1>
+      </div>
+      <div class="fondo_gris">
+        <div class="cuota">
+          <h6>cuota Fija</h6>
+          $695<small>MXN</small>
+        </div>
+        <div class="Botones">
+          <div class="suma" id="b1">
+            <button class="b_suma" type="button" name="suma">
+              +
+            </button>
+          </div>
+          <div class="cantidad" id="b2">
+            <input class="b_cantidad" type="text" name="cantidad" value="0">
+          </div>
+          <div class="resultado">
+            <button class="b_resultado" type="button" name="resultado">
+              =
+            </button>
+        </div>
+        <div class="total" >
+          <div class="pago_mensual">
+            Pago mensual
+          </div>
+          <input class="total" id="bt3" type="text" value="0">
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="ellos_usan">
+      <div class="row">
+        <div class="col-8">
+          <div class="leyenda">
+            <h1>Ellos usan HILT</h1>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="imagen_l">
+            <img src="imagenes/ac-sports.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beneficios">
+      <div class="beneficio">
+        <h1>Beneficios</h1>
+      </div>
+      <div class="cont">
+        <div class="iformacion">
+          <div class="imagen">
+            <img src="imagenes/icn_reportes.png" alt="">
+          </div>
+          <div class="subtitulo">
+            Informacion <br> encriptada
+          </div>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="iformacion">
+          <div class="imagen">
+            <img src="imagenes/refresh-button-2.png" alt="">
+          </div>
+          <div class="subtitulo">
+            Informacion <br> encriptada
+          </div>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="iformacion">
+          <div class="imagen">
+            <img src="imagenes/Soporte.png" alt="">
+          </div>
+          <div class="subtitulo">
+            Informacion <br> encriptada
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="formulario">
+      <form class="datos_cliente" action="index.html" method="post">
+        <label for="name">Nombre</label>
+        <br>
+        <input type="text" placeholder="" name="name" class="data">
+        <br>
+        <label for="email">E-mail</label>
+        <br>
+        <input type="text" placeholder="" name="email" class="data">
+        <br>
+        <label for="phone">Teléfono</label>
+        <br>
+        <input type="text" placeholder="" name="phone" class="data">
+        <br>
+        <input type="submit" class="Enviar" name="submit" value="Enviar">
+      </form>
+    </div>
+    <footer>
+      <div class="barra_final">
+        <div class="logo">
+          <img src="imagenes/Logo_Hiit.png" alt="">
+        </div>
+        <div class="correos">
+          Acerca de nosotros
+          <br>
+          <a href="mailto:contacto@hiit.com">contacto@hiit.com</a>
+          <br>
+          <a href="#">Aviso de privacidad</a>
+        </div>
+        <div class="redes_sociales">
+        <div class="Clientes">
+          <a href="#">  <p>Acceso a Clientes ></p></a>
+        </div>
+        <div class="facebook">
+          <a href="https://www.facebook.com/stackcodeio/" ><img alt="Siguenos en Facebook" src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png" width=32 height=32  />Facebook</a>
+        </div>
+        <div class="Twitter">
+          <a href="https://twitter.com/stackcodeio"><img src="https://lh6.googleusercontent.com/--aIk2uBwEKM/T3nN1x09jBI/AAAAAAAAAs8/qzDsbw3kEm8/s32/twitter32.png" width=32 height=32 alt="Síguenos en Twitter" />Twitter</a>
+        </div>
+
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

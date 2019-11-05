@@ -7,6 +7,12 @@
 #  ·················
 */
 
+
+body{
+  font-size: 25px;
+  margin: 0px;
+}
+/* -------Estilos para la Barra -----*/
 .barra{
   display: flex;
   justify-content: space-between;
@@ -25,7 +31,267 @@
 }
 
 nav ul li{
-  padding-right: 20px;
   list-style: none;
-  margin-right: 150px;
+  margin-right: 40%;
+}
+
+/*------ Estilos para el body-------*/
+.Control_deportivo{
+  background-image: url("../imagenes/compu.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+}
+
+
+.title{
+  color: white;
+  padding: 40px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+
+.main_btn{
+  padding: 10px;
+  background-color: #ff6319;
+  width: 100%;
+  border: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+}
+.main_btn:hover{
+  background-color: #a64212;
+}
+
+/*-------Estilos Gestion poderosa ------*/
+
+.cont{
+  display: flex;
+}
+
+.imagenes{
+  display: flex;
+  margin: 5px;
+  margin-top: 5%;
+}
+.img_col2{
+  margin-left: 90px;
+  margin-top: -30px;
+}
+
+.imagenes img{
+  padding: 9px;
+  width: 150px;
+}
+
+.title2{
+  color: #ff6319;
+}
+
+.texto{
+  margin-left: 20%;
+  margin-right: 5%;
+  margin-top: 9%;
+}
+/*-----------ventajas---------*/
+
+.ventajas{
+  background-image: url("../imagenes/Foto.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 700px;
+  background-size: cover;
+  display: inherit;
+  color: white;
+  margin-top: 5%;
+}
+
+.lista{
+  padding: 150px;
+  font-size: 25px;
+}
+/*------------Calculadora------------*/
+
+.title_cal{
+  margin-top: 5%;
+  text-align: center;
+  color: #ff6319;
+}
+.fondo_gris{
+  background:#252525;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 200px;
+  width: auto;
+  background-size: cover;
+  display: flex;
+}
+
+.cuota{
+  color: white;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.Botones{
+  padding: 15px;
+  margin-top: 5%;
+  display: flex;
+}
+
+.b_suma{
+  padding: 10px;
+  background-color: white;
+  width: 100%;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ff6319;
+  margin-top: 10px;
+}
+
+.b_cantidad{
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  width: 80%;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black ;
+}
+
+.b_resultado{
+  padding: 10px;
+  background-color: white;
+  width: 100%;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ff6319;
+  margin-top: 10px;
+}
+
+.total{
+  margin-top: 5px;
+  margin-left: 15px;
+  border: 0px;
+  background:#252525;
+  color:white;
+}
+.pago_mensual{
+  margin-top: -15px;
+}
+
+/*---------Ellos usan ----------*/
+
+.ellos_usan{
+  background-image: url("../imagenes/Page1.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 279px;
+  width: 1377px;
+  background-size: cover;
+  color: white;
+  margin-top: 10%;
+}
+
+.imagen_l{
+  margin-top: -150px;
+  margin-left: 50px;
+}
+
+.leyenda{
+  margin-top: -100px;
+  margin-left: 400px;;
+}
+
+/*----------Beneficios-------------*/
+.beneficios{
+  margin-top: 10%;
+  background-image: url("../imagenes/plecanegra.png");
+  background-position: center;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 312px;
+  width: 1522px;
+  background-size: cover;
+  color: white;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.beneficio{
+  margin-top: 8%;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+
+.cont{
+  margin-top: 10%;
+  margin-top: 7%;
+margin-left: 10%;
+}
+
+
+/*-----------Formulario------------*/
+
+
+
+.formulario{
+background-color: #fd8349;
+margin-top: 10%;
+margin-left: 30%;
+margin-right: 40%;
+}
+
+.datos_cliente input{
+  width: 98%;
+  margin:5px;
+  border-radius: 5px;
+}
+
+.Enviar{
+  padding: 10px;
+  background-color: #777575;
+  border: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+}
+.Enviar:hover{
+  background-color: #252525;
+}
+
+/*-------------footer---------*/
+
+.barra_final{
+  display: flex;
+  background-color: #252525;
+}
+
+.barra_final a{
+  color: #f1f5f7;
+}
+
+.correos{
+  margin-left: 5%;
+  color: #f1f5f7;
+  margin-left:
+}
+
+.redes_sociales{
+  margin-left: 70%;
+}
+
+.facebook{
+  display:flex;
 }
