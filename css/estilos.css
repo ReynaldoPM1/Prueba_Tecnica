@@ -271,3 +271,28 @@ margin-right: 40%;
 .Enviar:hover{
   background-color: #252525;
 }
+
+/*-------------footer---------*/
+
+.barra_final{
+  display: flex;
+  background-color: #252525;
+}
+
+.barra_final a{
+  color: #f1f5f7;
+}
+
+.correos{
+  margin-left: 5%;
+  color: #f1f5f7;
+  margin-left:
+}
+
+.redes_sociales{
+  margin-left: 70%;
+}
+
+.facebook{
+  display:flex;
+}
