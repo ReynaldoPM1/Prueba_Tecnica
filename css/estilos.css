@@ -6,6 +6,11 @@
 #  \___/____/____/··
 #  ·················
 */
+
+
+body{
+  font-size: 25px;
+}
 /* -------Estilos para la Barra -----*/
 .barra{
   display: flex;
@@ -60,4 +65,35 @@ nav ul li{
 }
 .main_btn:hover{
   background-color: #a64212;
+}
+
+/*-------Estilos Gestion poderosa ------*/
+
+.cont{
+  display: flex;
+}
+
+.imagenes{
+  display: flex;
+  margin: 5px;
+  margin-top: 5%;
+}
+.img_col2{
+  margin-left: 90px;
+  margin-top: -30px;
+}
+
+.imagenes img{
+  padding: 9px;
+  width: 150px;
+}
+
+.title2{
+  color: #ff6319;
+}
+
+.texto{
+  margin-left: 20%;
+  margin-right: 5%;
+  margin-top: 9%;
 }
