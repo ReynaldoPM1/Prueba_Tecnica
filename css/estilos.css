@@ -1,0 +1,31 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+
+.barra{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  min-height: 60px;
+  background-color: #252525 ;
+  text-decoration: none;
+}
+
+.barra a{
+  text-decoration: none;
+  color: white;
+  font-size: helvetica;
+}
+
+nav ul li{
+  padding-right: 20px;
+  list-style: none;
+  margin-right: 150px;
+}
