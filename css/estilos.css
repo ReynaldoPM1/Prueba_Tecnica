@@ -6,7 +6,7 @@
 #  \___/____/____/··
 #  ·················
 */
-
+/* -------Estilos para la Barra -----*/
 .barra{
   display: flex;
   justify-content: space-between;
@@ -28,4 +28,36 @@ nav ul li{
   padding-right: 20px;
   list-style: none;
   margin-right: 150px;
+}
+
+/*------ Estilos para el body-------*/
+.Control_deportivo{
+  background-image: url("../imagenes/compu.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+}
+
+
+.title{
+  color: white;
+  padding: 40px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+
+.main_btn{
+  padding: 10px;
+  background-color: #ff6319;
+  width: 100%;
+  border: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+}
+.main_btn:hover{
+  background-color: #a64212;
 }
