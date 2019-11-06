@@ -1,0 +1,95 @@
+@media (max-width: 600px) {
+.Control_deportivo{
+
+  width:600px;
+  height:500px;
+
+}
+
+.title{
+  padding: 0px;
+  margin-left: 0px;
+
+}
+
+.imagenes{
+  display: inherit;
+}
+
+.texto{
+  margin-top:35%;
+  margin-left: 0px;
+  width: 50%;
+}
+.img_col2{
+  margin:0;
+}
+/*---------calculadora------*/
+
+.aceptar{
+  width: 200px;
+  margin-top: 50px;
+}
+
+.total{
+  width: 10px;
+}
+
+.cuota{
+  margin-left: 15%;
+}
+/*--------ventajas------*/
+.ventajas{
+  background-image: url("../imagenes/pesas_movil.png");
+  height: 1500px;
+}
+
+/*----------ellos usan-------*/
+
+.ellos_usan{
+  height: 100px;
+  width: 550px;
+}
+
+.imagen_l img{
+  margin-top: 0px;
+  height: 50px;
+}
+
+.leyenda h1{
+  font-size: 25px;
+}
+
+/*---------beneficios--------*/
+
+.beneficios{
+  height: 100px;
+  width: 500px;
+}
+
+.cont{
+  margin-left: 8px;
+  margin-top: 1%;
+}
+
+.beneficios img{
+  height: 50px;
+}
+
+.beneficio h1{
+  font-size: 25px;
+}
+
+
+/*--------formulario-------*/
+.formulario{
+  margin-right:25%;
+  margin-left: 15%;
+}
+
+/*--------footer---------*/
+.redes_sociales{
+  margin-left: 25%;
+}
+
+}
