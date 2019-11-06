@@ -1,4 +1,5 @@
 @media (max-width: 600px) {
+  /*----------Control------*/
 .Control_deportivo{
 
   width:600px;
@@ -7,34 +8,49 @@
 }
 
 .title{
-  padding: 0px;
-  margin-left: 0px;
-
+  margin-left:1px;
+  font-size: 15px;
 }
+/*----------Gestion------*/
 
-.imagenes{
-  display: inherit;
+.contenido_text{
+    font-size: 15px;
 }
-
+.imagenes img{
+  width: 100px;
+}
 .texto{
-  margin-top:35%;
+  margin-top:15%;
   margin-left: 0px;
   width: 50%;
 }
+.imagenes{
+  margin: 0px;
+}
 .img_col2{
-  margin:0;
+  margin-left: :1px;
+  margin-top: 1px;
+  margin: 1px;
 }
 /*---------calculadora------*/
 
+.cantidad{
+  width: 50px;
+}
 .aceptar{
   width: 200px;
   margin-top: 50px;
 }
 
 .total{
-  width: 10px;
+  width: 150px;
+  height: 50px;
 }
 
+.b_resultado{
+  margin-left: 30px;
+  width: 40px;
+}
 .cuota{
   margin-left: 15%;
 }
@@ -58,6 +74,7 @@
 
 .leyenda h1{
   font-size: 25px;
+  margin-top: 3%;
 }
 
 /*---------beneficios--------*/
@@ -65,10 +82,11 @@
 .beneficios{
   height: 100px;
   width: 500px;
+  font-size: 15px;
 }
 
 .cont{
-  margin-left: 8px;
+  margin-left: 25px;
   margin-top: 1%;
 }
 
@@ -78,6 +96,7 @@
 
 .beneficio h1{
   font-size: 25px;
+  margin-top: -4%;
 }
 
 
@@ -92,4 +111,11 @@
   margin-left: 25%;
 }
 
+.correos{
+  width: 100px;
+}
+
+.barra_final{
+  font-size: 24px;
+}
 }
